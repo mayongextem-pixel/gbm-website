@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GBM - Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="script.js"></script>
+</head>
+<body class="relative bg-gray-100 text-gray-900 transition-colors duration-300">
+
+  <!-- Background -->
+  <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('assets/logo.png');"></div>
+  <div class="absolute inset-0 bg-black/70"></div>
+
+  <!-- Konten -->
+  <div class="relative z-10">
+    <!-- Navbar -->
+    <nav class="bg-gray-900/80 text-white px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="assets/logo.png" alt="GBM Logo" class="h-10 w-10 rounded-full">
+        <h1 class="text-lg font-bold">GBM</h1>
+      </div>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-yellow-400">Home</a></li>
+        <li><a href="about.html" class="hover:text-yellow-400">About</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-400">Contact</a></li>
+      </ul>
+      <button id="darkToggle" class="px-3 py-1 bg-yellow-400 text-black rounded-md">Dark Mode</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20 text-white">
+      <img src="assets/logo.png" alt="Logo GBM" class="mx-auto w-32 h-32 mb-6 rounded-full shadow-lg bg-white/80 p-2">
+      <h2 class="text-4xl font-bold mb-2">Generasi Beatbox Manggarai</h2>
+      <p class="italic text-yellow-400 mb-6">"GBM Back From A Long Sleep"</p>
+      <p class="text-lg max-w-2xl mx-auto">
+        Generasi Beatbox Manggarai (GBM) adalah komunitas musik beatbox yang berdiri sejak 2018. 
+        Visi kami adalah melestarikan dan mempertahankan seni musik beatbox di tengah dominasi musik modern. 
+        Misi kami adalah berpartisipasi dalam berbagai event musik, lomba beatbox, serta membuat karya kolaborasi dengan seni musik lain. 
+        Kegiatan utama komunitas adalah tampil di berbagai acara, membuat video kreatif, dan berkolaborasi dengan musisi lain.
+      </p>
+    </section>
+
+    <!-- Media Sosial -->
+    <section class="text-center py-10 text-white">
+      <h3 class="text-2xl font-semibold mb-4">Ikuti Kami</h3>
+      <div class="flex justify-center space-x-6">
+        <a href="https://www.instagram.com/generasibeatboxmanggarai?igsh=MXc4bHFvcHB3bnlsMw==" target="_blank" class="text-pink-400 hover:underline">Instagram</a>
+        <a href="https://whatsapp.com/channel/0029VbApS0Q002T6GE33Ng2B" target="_blank" class="text-green-400 hover:underline">WhatsApp Channel</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
